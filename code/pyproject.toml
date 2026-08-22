@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "message-notification-router"
+version = "1.0.0"
+description = "Deterministic, multimodal WhatsApp notification routing"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "HackerRank Orchestrate participant" }]
+dependencies = []
+
+[project.optional-dependencies]
+media = ["faster-whisper==1.2.1"]
+vision = ["Pillow==12.2.0", "pillow-avif-plugin==1.5.2"]
+dev = ["pytest==9.0.3"]
+
+[project.scripts]
+message-router = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["router*", "evaluation*"]
+namespaces = true
+
+[tool.setuptools.data-files]
+"share/message-notification-router/prompts" = ["prompts/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

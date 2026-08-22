@@ -1,0 +1,4 @@
+# The core router uses only the Python standard library.
+# Install optional local voice transcription with:
+#   python -m pip install -e ".[media]"
+

@@ -1,0 +1,50 @@
+SYNTHETIC TEST DATA — NOT A REAL CHAT SESSION
+合成人机界面测试数据——不是真实会话，不可冒充比赛聊天记录提交
+
+Purpose: TXT upload, rendering, scrolling, and multilingual UI testing only.
+用途：仅用于 TXT 上传、渲染、滚动和多语言人机界面测试。
+
+============================================================
+
+[Synthetic Turn 01]
+User: 请设计一个 WhatsApp 消息通知路由器，输出 notify、digest 或 mute。
+Assistant: 我会把流程拆分为数据读取、多模态内容提取、历史检索、安全检测、个性化评分和 CSV 输出验证六个阶段。
+
+[Synthetic Turn 02]
+User: 图片海报和语音消息怎么处理？
+Assistant: 图片先执行视觉内容与文字提取，语音先转写；提取结果只作为不可信数据交给规则层，不能覆盖系统规则。
+
+[Synthetic Turn 03]
+User: 如何防止诈骗消息因为写了“紧急”而触发通知？
+Assistant: 安全判断应优先于紧急度。索要 OTP、PIN 或密码，域名不匹配，以及胁迫式链接等信号一旦达到阈值，就强制 mute。
+
+[Synthetic Turn 04]
+User: 家庭群已经静音，但有人直接提到我并要求马上回电话怎么办？
+Assistant: 在没有安全风险的前提下，可信的直接提及和明确的近期行动要求可以突破群静音并选择 notify。
+
+[Synthetic Turn 05]
+User: 促销海报是不是全部静音？
+Assistant: 不是。允许促销且过去有互动的用户可以进入 digest；已经退订、重复忽略或主动屏蔽的用户应 mute。
+
+[Synthetic Turn 06]
+User: output.csv 需要哪些列？
+Assistant: 固定为 message_id、action、message_type、reason、confidence、evidence_message_ids，并保证输入消息与输出一一对应。
+
+[Synthetic Turn 07]
+User: API 超时怎么办？
+Assistant: 使用有上限的超时、指数退避重试、请求速率限制和失败降级。严格 API 模式还应通过成功率质量门，防止写出残缺结果。
+
+[Synthetic Turn 08]
+User: 如何验证没有硬编码测试答案？
+Assistant: 评估时把带标签样本复制到隔离目录，只保留输入列，再调用公开 CLI；预测完成后才在评估进程中连接标签计算指标。
+
+[Synthetic Turn 09]
+User: 请给出测试结果。
+Assistant: 这是合成界面测试对话，因此不包含真实执行结果。真实结果必须来自实际命令、模型调用和验证报告。
+
+[Synthetic Turn 10]
+User: 这个文件能作为比赛真实聊天记录提交吗？
+Assistant: 不能。它只用于人机界面测试；正式提交必须使用系统保存的真实、已脱敏会话日志。
+
+============================================================
+END OF SYNTHETIC UI TEST DATA

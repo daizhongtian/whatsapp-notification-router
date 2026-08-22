@@ -1,0 +1,94 @@
+{
+  "csv": {
+    "business_accounts.csv": {
+      "bytes": 9725,
+      "rows": 110,
+      "sha256": "df7e50787671373b2858f13d50ab2e8955c5c48cc40b9793c30281cd030eb10e"
+    },
+    "daily_notification_summary.csv": {
+      "bytes": 16781,
+      "rows": 756,
+      "sha256": "8212f6842e5ec4649bb65aab9b98e142c3e0474075d7957e5f7730c3509ed5df"
+    },
+    "group_members.csv": {
+      "bytes": 18412,
+      "rows": 401,
+      "sha256": "0595b2e37969daa9879e1d44ab395750e5b8907c566f61fd514afe63bbdb6601"
+    },
+    "groups.csv": {
+      "bytes": 1586,
+      "rows": 23,
+      "sha256": "7cabe0498864555a28313ec54b7f11928766b235ca07c95c518376b83e20ef35"
+    },
+    "images.csv": {
+      "bytes": 700,
+      "rows": 20,
+      "sha256": "13579f2e0e2d6fce8439532974a135b1dbf7c4f5f70602e58bdb3a9a79e222d3"
+    },
+    "message_events.csv": {
+      "bytes": 13403,
+      "rows": 412,
+      "sha256": "979a5f7f706044794343a71a045708f8eedaaa28e0fd99f016630e38eba604b6"
+    },
+    "message_history.csv": {
+      "bytes": 77010,
+      "rows": 412,
+      "sha256": "83505a8e84f43ccbf4ffeadd0f855656c6b91b628adcbfa49d1e11938f14da78"
+    },
+    "messages.csv": {
+      "bytes": 23248,
+      "rows": 110,
+      "sha256": "4bbb1c8f934c45298bca905bdaaa8ef43101f9596b169e11d06f85db98d93c13"
+    },
+    "output.csv": {
+      "bytes": 13677,
+      "rows": 110,
+      "sha256": "cde4863511c71c329af826bbfe18fe311eaa77dbe08adb0e555fa12b53a979b0"
+    },
+    "sample_messages.csv": {
+      "bytes": 10049,
+      "rows": 30,
+      "sha256": "c81c6960b65e945d35e8b0ce7c0c70334006affcf9c3ef166cf163e960bd1fee"
+    },
+    "user_business_history.csv": {
+      "bytes": 9047,
+      "rows": 106,
+      "sha256": "2f25a754dbc1a8c5b8511a66052475698c2e078deb5920b7e8b43dbf6f04aace"
+    },
+    "users.csv": {
+      "bytes": 1731,
+      "rows": 54,
+      "sha256": "481cc071faf94ce2ca4ab770f047bb908041dcc3ec66bbaf179e3e5bcbffe96a"
+    },
+    "voice_notes.csv": {
+      "bytes": 428,
+      "rows": 13,
+      "sha256": "978ce71cea9a94c9790baf22120660cc2b171024252b9b6a09ce997ebefdcbb9"
+    }
+  },
+  "dataset": "C:\\Users\\14660\\OneDrive\\Desktop\\mycodex\\my project\\比赛8月\\dataset",
+  "issues": [],
+  "media": {
+    "audio_seconds": 242.081,
+    "bytes": 11840354,
+    "decoded_audio": 13,
+    "decoded_images": 20,
+    "deep_decoders": {
+      "pillow": true,
+      "pyav": true
+    },
+    "duplicate_content_files": 0,
+    "files": 33,
+    "formats": {
+      "avif": 1,
+      "jpeg": 10,
+      "m4a": 4,
+      "mp3": 4,
+      "png": 7,
+      "wav": 5,
+      "webp": 2
+    },
+    "unique_sha256": 33
+  },
+  "ok": true
+}

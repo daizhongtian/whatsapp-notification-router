@@ -1,0 +1,43 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and packaging output
+.venv/
+.venv-*/
+.venv-media/
+venv/
+build/
+dist/
+*.egg-info/
+*.zip
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.gateway-test-api-keys.json
+.gateway-test-usage.json
+.gateway-test-attachments/
+
+# Runtime caches, reports, and temporary files
+.cache/
+.test-tmp/
+.artifact-verify/
+evaluation-report*.json
+*.tmp
+dataset/output.stage.csv
+submission/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

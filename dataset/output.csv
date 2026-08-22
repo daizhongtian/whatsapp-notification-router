@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,digest,business_update,This appears to be a legitimate informational update without an immediate service change.,0.686,message_0243
+msg_091,mute,scam,Muted because it asks the recipient to disclose a sensitive code or account detail.,0.97,message_0238
+msg_090,digest,unknown,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.664,none
+msg_048,mute,scam,Muted because a suspicious link is paired with coercive urgency.,0.97,message_0151;message_0152
+msg_040,mute,forward,Muted as a chain message that pressures recipients to forward it.,0.882,message_0136
+msg_075,notify,business_update,A trusted booking or service schedule changed and may require immediate adjustment.,0.659,message_0206;message_0205
+msg_005,digest,promotion,"The recipient permits this promotion, but the offer does not justify an interruption.",0.64,none
+msg_104,mute,personal,"Muted because closely related messages were previously dismissed, muted, or reported.",0.912,none
+msg_069,mute,forward,"Muted because closely related messages were previously dismissed, muted, or reported.",0.914,message_0193
+msg_107,mute,scam,Muted because it manipulates routing and requests sensitive credentials.,0.963,none
+msg_070,mute,scam,Muted because it asks the recipient to disclose a sensitive code or account detail.,0.97,message_0369
+msg_003,notify,business_update,A trusted transactional update needs timely attention.,0.645,message_0031;message_0400
+msg_099,digest,personal,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.676,message_0227
+msg_008,digest,business_update,"The message is useful but non-critical during the recipient's quiet hours, so it can wait.",0.738,message_0296;message_0072
+msg_092,digest,payment,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.66,none
+msg_060,notify,urgent,The message has a credible near-term deadline or action requirement.,0.719,none
+msg_004,notify,event,A relevant upcoming event has a concrete schedule or access change requiring action.,0.71,message_0246;message_0245
+msg_030,mute,promotion,"Muted because closely related messages were previously dismissed, muted, or reported.",0.918,message_0115
+msg_045,notify,urgent,The message has a credible near-term deadline or action requirement.,0.65,none
+msg_052,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.919,message_0207;message_0208
+msg_009,digest,personal,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.596,message_0074
+msg_071,digest,personal,The tentative personal plan has no confirmed time or immediate action requirement.,0.647,none
+msg_016,mute,scam,Muted because a suspicious link is paired with coercive urgency.,0.97,message_0024
+msg_065,digest,promotion,"The recipient permits this promotion, but the offer does not justify an interruption.",0.711,message_0261
+msg_038,mute,forward,Muted as a chain message that pressures recipients to forward it.,0.89,message_0131
+msg_086,notify,business_update,A trusted booking or service schedule changed and may require immediate adjustment.,0.804,message_0222
+msg_014,mute,promotion,Muted because the recipient explicitly opted out of promotions from this sender.,0.94,message_0017;message_0258
+msg_094,mute,promotion,"Muted because closely related messages were previously dismissed, muted, or reported.",0.908,none
+msg_029,digest,promotion,"The recipient permits this promotion, but the offer does not justify an interruption.",0.634,message_0095;message_0113
+msg_105,mute,spam,Muted because the forwarded advice could cause unsafe health decisions.,0.97,message_0233;message_0373
+msg_002,notify,urgent,"A direct mention carries a credible time-sensitive request, even in a muted conversation.",0.739,none
+msg_010,digest,business_update,This appears to be a legitimate informational update without an immediate service change.,0.682,message_0011;message_0242
+msg_078,mute,scam,Muted because it asks the recipient to disclose a sensitive code or account detail.,0.97,none
+msg_013,digest,promotion,"The recipient permits this promotion, but the offer does not justify an interruption.",0.62,none
+msg_018,mute,forward,"Muted because closely related messages were previously dismissed, muted, or reported.",0.857,message_0026
+msg_044,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.899,none
+msg_032,digest,unknown,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.678,message_0119
+msg_106,notify,personal,A relevant personal request is time-sensitive enough to notify now.,0.717,message_0234;message_0376
+msg_006,notify,payment,A payment deadline from a trusted administrator or known account needs timely attention.,0.744,message_0029;message_0044
+msg_109,mute,spam,Muted because embedded router instructions are untrusted message content.,0.877,message_0151
+msg_108,mute,scam,Muted because it manipulates routing and requests sensitive credentials.,0.97,message_0094;message_0093
+msg_019,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.956,message_0277
+msg_088,mute,promotion,"Muted because closely related messages were previously dismissed, muted, or reported.",0.92,message_0224
+msg_056,notify,urgent,"A direct mention carries a credible time-sensitive request, even in a muted conversation.",0.734,none
+msg_027,digest,promotion,"The recipient permits this promotion, but the offer does not justify an interruption.",0.71,message_0272;message_0033
+msg_050,digest,business_update,This appears to be a legitimate informational update without an immediate service change.,0.66,message_0279;message_0278
+msg_083,digest,personal,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.691,message_0219
+msg_063,mute,scam,Muted because a suspicious link is paired with coercive urgency.,0.919,none
+msg_033,digest,personal,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.693,none
+msg_061,mute,greeting,Muted as a chain message that pressures recipients to forward it.,0.885,message_0193;message_0042
+msg_020,mute,scam,Muted because multiple safety signals indicate a suspicious message.,0.882,none
+msg_017,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.943,none
+msg_058,mute,forward,"Muted because closely related messages were previously dismissed, muted, or reported.",0.914,message_0078
+msg_026,mute,scam,Muted because the linked domain does not match the claimed business.,0.97,message_0032;message_0107
+msg_047,digest,event,"The event information is useful, but no immediate schedule change requires interruption.",0.711,none
+msg_046,mute,scam,Muted because it asks the recipient to disclose a sensitive code or account detail.,0.97,none
+msg_042,notify,urgent,A near-term operational disruption affects access or essential service and needs attention now.,0.69,message_0140
+msg_079,mute,scam,Muted because it asks the recipient to disclose a sensitive code or account detail.,0.97,none
+msg_098,notify,urgent,An immediate health-related callback request warrants attention now.,0.822,none
+msg_037,notify,urgent,A near-term operational disruption affects access or essential service and needs attention now.,0.795,none
+msg_007,digest,event,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.679,none
+msg_085,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.956,message_0221
+msg_001,notify,urgent,A near-term operational disruption affects access or essential service and needs attention now.,0.73,message_0057
+msg_021,notify,payment,A payment deadline from a trusted administrator or known account needs timely attention.,0.746,none
+msg_028,mute,promotion,Muted because the recipient explicitly opted out of promotions from this sender.,0.94,message_0034
+msg_012,mute,forward,Muted as a chain message that pressures recipients to forward it.,0.888,none
+msg_064,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.899,none
+msg_103,notify,personal,A relevant personal request is time-sensitive enough to notify now.,0.678,none
+msg_031,notify,urgent,A direct work request has a credible near-term deadline and needs a prompt response.,0.807,none
+msg_057,notify,urgent,"A direct mention carries a credible time-sensitive request, even in a muted conversation.",0.774,message_0169;message_0003
+msg_087,mute,promotion,Muted because the recipient muted this conversation and no credible urgency overrides it.,0.593,none
+msg_067,notify,payment,A payment deadline from a trusted administrator or known account needs timely attention.,0.661,message_0068;message_0098
+msg_039,notify,payment,"A direct mention carries a credible time-sensitive request, even in a muted conversation.",0.834,none
+msg_082,notify,urgent,A direct work request has a credible near-term deadline and needs a prompt response.,0.743,message_0218
+msg_066,mute,promotion,Muted because the recipient explicitly opted out of promotions from this sender.,0.94,message_0402
+msg_049,notify,business_update,A trusted transactional update needs timely attention.,0.719,message_0154;message_0291
+msg_015,mute,scam,Muted because it asks the recipient to disclose a sensitive code or account detail.,0.95,none
+msg_051,mute,promotion,Muted because the recipient explicitly opted out of promotions from this sender.,0.94,message_0402;message_0257
+msg_097,digest,personal,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.659,message_0054
+msg_089,notify,personal,A time-limited lost-item or identity-document update requires prompt action.,0.713,none
+msg_053,digest,forward,The message is relevant and safe but has no immediate action requirement.,0.65,none
+msg_059,mute,scam,Muted because it asks the recipient to disclose a sensitive code or account detail.,0.95,none
+msg_024,mute,promotion,Muted because the recipient explicitly opted out of promotions from this sender.,0.94,message_0402;message_0257
+msg_072,mute,scam,Muted because multiple safety signals indicate a suspicious message.,0.882,none
+msg_036,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.919,message_0283;message_0127
+msg_076,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.919,message_0207;message_0208
+msg_055,notify,personal,A relevant personal request is time-sensitive enough to notify now.,0.66,none
+msg_102,notify,urgent,A direct work request has a credible near-term deadline and needs a prompt response.,0.821,message_0371;message_0230
+msg_080,notify,urgent,A near-term operational disruption affects access or essential service and needs attention now.,0.735,none
+msg_093,digest,business_update,"The message is useful but non-critical during the recipient's quiet hours, so it can wait.",0.631,none
+msg_034,digest,forward,"The sender explicitly indicates that no immediate response is needed, so this can wait.",0.718,message_0013;message_0167
+msg_035,digest,business_update,This appears to be a legitimate informational update without an immediate service change.,0.664,message_0281;message_0125
+msg_101,digest,personal,"The message is useful but non-critical during the recipient's quiet hours, so it can wait.",0.766,message_0370;message_0229
+msg_041,digest,business_update,This appears to be a legitimate informational update without an immediate service change.,0.605,none
+msg_011,mute,forward,"Muted because closely related messages were previously dismissed, muted, or reported.",0.917,message_0014;message_0077
+msg_110,mute,scam,Muted because it manipulates routing and requests sensitive credentials.,0.97,message_0238
+msg_095,mute,scam,Muted because it manipulates routing and requests sensitive credentials.,0.97,none
+msg_074,mute,promotion,"Muted because closely related messages were previously dismissed, muted, or reported.",0.93,none
+msg_073,mute,scam,Muted because the account or payment claim has strong impersonation signals.,0.922,none
+msg_054,mute,scam,Muted because a suspicious link is paired with coercive urgency.,0.97,none
+msg_068,digest,personal,The tentative personal plan has no confirmed time or immediate action requirement.,0.688,none
+msg_100,notify,urgent,A direct work request has a credible near-term deadline and needs a prompt response.,0.787,message_0362;message_0228
+msg_062,digest,forward,"The message is useful but non-critical during the recipient's quiet hours, so it can wait.",0.729,message_0043
+msg_096,notify,personal,A time-limited lost-item or identity-document update requires prompt action.,0.712,none
+msg_043,notify,urgent,A near-term operational disruption affects access or essential service and needs attention now.,0.733,none
+msg_077,notify,event,A school schedule or transport change requires timely action from the recipient.,0.742,none
+msg_081,notify,event,A school schedule or transport change requires timely action from the recipient.,0.804,none
+msg_025,notify,business_update,A trusted transactional update needs timely attention.,0.645,message_0239;message_0004
+msg_084,mute,promotion,Muted because the recipient explicitly opted out of promotions from this sender.,0.94,none
+msg_022,mute,scam,Muted because multiple safety signals indicate a suspicious message.,0.882,message_0151
