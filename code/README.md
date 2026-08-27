@@ -27,7 +27,7 @@ python -m pip install -e .\code
 
 On macOS or Linux, activate with `source code/.venv/bin/activate`. The core
 installation has no third-party runtime dependencies. For a fully pinned local
-transcription/VLM environment:
+media-processing environment:
 
 ```text
 python -m pip install -r code/requirements-media.lock
@@ -155,6 +155,7 @@ optional settings:
 | `AI_API_MIN_SUCCESS_RATIO` | API-mode quality gate, default 0.95 |
 | `AI_API_HYBRID_CONFIDENCE_THRESHOLD` | In `hybrid`, select text below this local confidence; default 0.68 |
 | `AI_API_CACHE_TTL_SECONDS` | In-memory content-fact cache TTL |
+| `AI_API_MAX_CACHE_ENTRIES` | Maximum in-memory content-fact cache entries; default 128 |
 | `ROUTER_CACHE_DIR` | Opt-in persistent media-fact cache directory |
 | `ROUTER_WHISPER_MODEL` | Local faster-whisper model name or path |
 | `ROUTER_WHISPER_DOWNLOAD_ROOT` | Optional model storage directory |
