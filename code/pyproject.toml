@@ -9,7 +9,7 @@ description = "Deterministic, multimodal WhatsApp notification routing"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "HackerRank Orchestrate participant" }]
+authors = [{ name = "Zhongtian Dai" }]
 dependencies = []
 
 [project.optional-dependencies]
